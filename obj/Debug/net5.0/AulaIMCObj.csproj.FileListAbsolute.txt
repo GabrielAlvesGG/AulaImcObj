@@ -1,0 +1,16 @@
+C:\Users\alves\OneDrive\Área de Trabalho\AulaIMCObj\obj\Debug\net5.0\AulaIMCObj.csproj.AssemblyReference.cache
+C:\Users\alves\OneDrive\Área de Trabalho\AulaIMCObj\obj\Debug\net5.0\AulaIMCObj.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alves\OneDrive\Área de Trabalho\AulaIMCObj\obj\Debug\net5.0\AulaIMCObj.AssemblyInfoInputs.cache
+C:\Users\alves\OneDrive\Área de Trabalho\AulaIMCObj\obj\Debug\net5.0\AulaIMCObj.AssemblyInfo.cs
+C:\Users\alves\OneDrive\Área de Trabalho\AulaIMCObj\obj\Debug\net5.0\AulaIMCObj.csproj.CoreCompileInputs.cache
+C:\Users\alves\OneDrive\Área de Trabalho\AulaIMCObj\bin\Debug\net5.0\AulaIMCObj.exe
+C:\Users\alves\OneDrive\Área de Trabalho\AulaIMCObj\bin\Debug\net5.0\AulaIMCObj.deps.json
+C:\Users\alves\OneDrive\Área de Trabalho\AulaIMCObj\bin\Debug\net5.0\AulaIMCObj.runtimeconfig.json
+C:\Users\alves\OneDrive\Área de Trabalho\AulaIMCObj\bin\Debug\net5.0\AulaIMCObj.runtimeconfig.dev.json
+C:\Users\alves\OneDrive\Área de Trabalho\AulaIMCObj\bin\Debug\net5.0\AulaIMCObj.dll
+C:\Users\alves\OneDrive\Área de Trabalho\AulaIMCObj\bin\Debug\net5.0\ref\AulaIMCObj.dll
+C:\Users\alves\OneDrive\Área de Trabalho\AulaIMCObj\bin\Debug\net5.0\AulaIMCObj.pdb
+C:\Users\alves\OneDrive\Área de Trabalho\AulaIMCObj\obj\Debug\net5.0\AulaIMCObj.dll
+C:\Users\alves\OneDrive\Área de Trabalho\AulaIMCObj\obj\Debug\net5.0\ref\AulaIMCObj.dll
+C:\Users\alves\OneDrive\Área de Trabalho\AulaIMCObj\obj\Debug\net5.0\AulaIMCObj.pdb
+C:\Users\alves\OneDrive\Área de Trabalho\AulaIMCObj\obj\Debug\net5.0\AulaIMCObj.genruntimeconfig.cache
