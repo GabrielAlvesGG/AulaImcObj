@@ -6,40 +6,43 @@ namespace AulaIMCObj
     {
         static void Main(string[] args)
         {   
-
-           
-            Console.WriteLine("Digite o nome do Paciente: ");         
-            string NomePaciente= Console.ReadLine();
-
-           
-            Console.WriteLine("Digite o peso do paciente : ");
-            double pesoPaciente = double.Parse(Console.ReadLine());
-
-           
-            Console.WriteLine("Digite a altura do paciente :");
-            double alturaPaciente = double.Parse(Console.ReadLine());
             
-           
-            //Objetos que foram criados
-            Paciente  ObjPaciente = new Paciente(NomePaciente, pesoPaciente, alturaPaciente);
+            
+            Console.WriteLine("Quantos Pacientes seram examinados :");
+            int QuantPaciente = int.Parse(Console.ReadLine());
+            
+            //Objetos utilizados
+            Paciente  ObjPaciente = new Paciente();
             Calculadora CalculaImc = new Calculadora();
-           //Objetos que foram criados
-           
-           
-           //São métodos que são utilizados e retornam um valor
-            ObjPaciente.ResultadoImcPaciente =  CalculaImc.CalculaImc(ObjPaciente.AlturaPaciente, ObjPaciente.PesoPaciente);
-            ObjPaciente.ResultadoStatusPaciente = CalculaImc.StatusPaciente(ObjPaciente.ResultadoImcPaciente);
-            //São métodos que são utilizados e retornam um valor
+            //Objetos utilizados
 
+            //Armazena a quantidade de Pacientes que for necessário.
+            for (int i = 0; i  < QuantPaciente; i ++)
+            {
+                Paciente NovoPaciente = new Paciente();   
+                Console.WriteLine("Digite o nome do Paciente: ");         
+                NovoPaciente.NomePaciente = Console.ReadLine();
+                Console.WriteLine("Digite o peso do paciente : ");
+                NovoPaciente.PesoPaciente = double.Parse(Console.ReadLine());
+                Console.WriteLine("Digite a altura do paciente :");
+                NovoPaciente.AlturaPaciente = double.Parse(Console.ReadLine());
+            
+                NovoPaciente.ResultadoImcPaciente =  CalculaImc.CalculaImc(NovoPaciente.AlturaPaciente, NovoPaciente.PesoPaciente);
+                NovoPaciente.ResultadoStatusPaciente = CalculaImc.StatusPaciente(NovoPaciente.ResultadoImcPaciente);
+                ObjPaciente.ListaPaciente.Add(NovoPaciente);
+            }
             
             
             //Resultados de todos os dados que foram utilizados
             Console.Clear();
-            Console.WriteLine("Nome: " + ObjPaciente.NomePaciente + ", Peso: " + ObjPaciente.PesoPaciente + ", Altura: " + ObjPaciente.AlturaPaciente );
-            Console.WriteLine("Imc do paciente : "  + ObjPaciente.ResultadoImcPaciente);
-            Console.WriteLine("Status do paciente: " + ObjPaciente.ResultadoStatusPaciente);
-            Console.ReadLine();
+            foreach (Paciente paciente in ObjPaciente.ListaPaciente)
+            {
+                Console.WriteLine("Nome: " + paciente.NomePaciente + ", Peso: " + paciente.PesoPaciente + ", Altura: " + paciente.AlturaPaciente );
+                Console.WriteLine("Imc do paciente : "  + paciente.ResultadoImcPaciente);
+                Console.WriteLine("Status do paciente: " + paciente.ResultadoStatusPaciente);
+                Console.ReadLine();
             //Resultados de todos os dados que foram utilizados
+            }
         }
     }
 }

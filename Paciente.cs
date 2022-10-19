@@ -17,19 +17,18 @@ namespace AulaIMCObj
        public double ResultadoImcPaciente{get;set;}
 
        public string ResultadoStatusPaciente {get; set;}
+
+       public List<Paciente> ListaPaciente = new   List<Paciente>();
+
+
     //Propriedades do paciente / Variável 
 
     //Construtor da class / Objeto
-       public Paciente(string nome, double peso, double altura){
-        
-        NomePaciente = nome;
-        
-        PesoPaciente = peso;
-        
-        AlturaPaciente = altura;
+       
+       public Paciente()
+       {
 
        }
        //Construtor da class / Objeto
-
     }
 }
